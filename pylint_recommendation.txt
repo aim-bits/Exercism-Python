@@ -1,0 +1,190 @@
+
+       
+       
+       GHOST GOBLE ARCADE GAME
+Recommended
+Line 12 [R1703 simplifiable-if-statement] : ["The if statement can be replaced with 'return bool(test)'"] 
+was reported by Pylint.
+
+This code is emitting a code smell, and may be in need of a re-write or refactor. 
+This doesn't mean the code is incorrect or buggy in a technical sense -- only that it appears to have 
+one or more patterns that could lead to future bugs or maintenance issues. Consider taking a closer look at it.
+
+Recommended
+Line 12 [R1705 no-else-return] : ["Unnecessary "else" after "return"", "remove the "else" and de-indent 
+the code inside it"] was reported by Pylint.
+
+This code is emitting a code smell, and may be in need of a re-write or refactor. 
+This doesn't mean the code is incorrect or buggy in a technical sense -- only that it appears 
+to have one or more patterns that could lead to future bugs or maintenance issues. 
+Consider taking a closer look at it.
+
+Recommended
+Line 12 [C0121 singleton-comparison] : ["Comparison 'power_pellet_active == True' should be 
+'power_pellet_active is True' if checking for the singleton value True", "or 'bool(power_pellet_active)' 
+if testing for truthiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 12 [C0121 singleton-comparison] : ["Comparison 'touching_ghost == True' should be 'touching_ghost is True' 
+if checking for the singleton value True", "or 'bool(touching_ghost)' if testing for truthiness"] was reported 
+by Pylint.
+
+Which means this code doesn't follow general code style conventions. While this type of issue generally 
+doesn't affect the way code executes, it can hurt readability or the performance of automated tools 
+such as documentation generators or test runners.
+
+Recommended
+Line 28 [C0121 singleton-comparison] : ["Comparison 'touching_power_pellet == True' should be 'touching_power_pellet 
+is True' if checking for the singleton value True", "or 'bool(touching_power_pellet)' if testing for truthiness"] 
+was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. While this type of issue generally 
+doesn't affect the way code executes, it can hurt readability or the performance of automated tools such 
+as documentation generators or test runners.
+
+Recommended
+Line 28 [C0121 singleton-comparison] : ["Comparison 'touching_dot == True' should be 'touching_dot is True' 
+if checking for the singleton value True", "or 'bool(touching_dot)' if testing for truthiness"] was reported 
+by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 39 [R1703 simplifiable-if-statement] : ["The if statement can be replaced with 'return bool(test)'"] was 
+reported by Pylint.
+
+This code is emitting a code smell, and may be in need of a re-write or refactor. 
+This doesn't mean the code is incorrect or buggy in a technical sense -- only that it appears 
+to have one or more patterns that could lead to future bugs or maintenance issues. 
+Consider taking a closer look at it.
+
+Recommended
+Line 39 [R1705 no-else-return] : ["Unnecessary "else" after "return"", "remove the "else" 
+and de-indent the code inside it"] was reported by Pylint.
+
+This code is emitting a code smell, and may be in need of a re-write or refactor. 
+This doesn't mean the code is incorrect or buggy in a technical sense -- only that 
+it appears to have one or more patterns that could lead to future bugs or maintenance issues. 
+Consider taking a closer look at it.
+
+Recommended
+Line 39 [C0121 singleton-comparison] : ["Comparison 'power_pellet_active == False' should be 
+'power_pellet_active is False' if checking for the singleton value False", "or 'not power_pellet_active' 
+if testing for falsiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 39 [C0121 singleton-comparison] : ["Comparison 'touching_ghost == True' should be 
+'touching_ghost is True' if checking for the singleton value True", "or 'bool(touching_ghost)' 
+if testing for truthiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 55 [R1705 no-else-return] : ["Unnecessary "elif" after "return"", "remove the leading "el" from "elif"] 
+was reported by Pylint.
+
+This code is emitting a code smell, and may be in need of a re-write or refactor. 
+This doesn't mean the code is incorrect or buggy in a technical sense -- only that 
+it appears to have one or more patterns that could lead to future bugs or maintenance issues. 
+Consider taking a closer look at it.
+
+Recommended
+Line 55 [C0121 singleton-comparison] : ["Comparison 'has_eaten_all_dots == True' should be 
+'has_eaten_all_dots is True' if checking for the singleton value True", "or 'bool(has_eaten_all_dots)' 
+if testing for truthiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 55 [C0121 singleton-comparison] : ["Comparison 'power_pellet_active == True' 
+should be 'power_pellet_active is True' if checking for the singleton value True", "or 'bool(power_pellet_active)' 
+if testing for truthiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 55 [C0121 singleton-comparison] : ["Comparison 'touching_ghost == False' 
+should be 'touching_ghost is False' if checking for the singleton value False", "or 'not touching_ghost' 
+if testing for falsiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 57 [C0121 singleton-comparison] : ["Comparison 'has_eaten_all_dots == True' 
+should be 'has_eaten_all_dots is True' if checking for the singleton value True", 
+"or 'bool(has_eaten_all_dots)' if testing for truthiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 57 [C0121 singleton-comparison] : ["Comparison 'power_pellet_active == False' 
+should be 'power_pellet_active is False' if checking for the singleton value False", "or 'not power_pellet_active' 
+if testing for falsiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. While this type of issue generally 
+doesn't affect the way code executes, it can hurt readability or the performance of automated 
+tools such as documentation generators or test runners.
+
+Recommended
+Line 57 [C0121 singleton-comparison] : ["Comparison 'touching_ghost == False' should be 'touching_ghost is False' 
+if checking for the singleton value False", "or 'not touching_ghost' if testing for falsiness"] was 
+reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. While this type of issue generally 
+doesn't affect the way code executes, it can hurt readability or the performance of automated tools 
+such as documentation generators or test runners.
+
+Recommended
+Line 59 [C0121 singleton-comparison] : ["Comparison 'has_eaten_all_dots == True' should be 
+'has_eaten_all_dots is True' if checking for the singleton value True", "or 'bool(has_eaten_all_dots)' 
+if testing for truthiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 59 [C0121 singleton-comparison] : ["Comparison 'power_pellet_active == True' should be 
+'power_pellet_active is True' if checking for the singleton value True", "or 'bool(power_pellet_active)' 
+if testing for truthiness"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Recommended
+Line 59 [C0121 singleton-comparison] : ["Comparison 'touching_ghost == True' should be 'touching_ghost is True' 
+if checking for the singleton value True", "or 'bool(touching_ghost)' if testing for truthiness"] was 
+reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. 
+While this type of issue generally doesn't affect the way code executes, 
+it can hurt readability or the performance of automated tools such as documentation generators or test runners.
+
+Line 1 [C0114 missing-module-docstring] : ["Missing module docstring"] was reported by Pylint.
+
+Which means this code doesn't follow general code style conventions. While this type of issue 
+generally doesn't affect the way code executes, it can hurt readability or the performance of 
+automated tools such as documentation generators or test runners.
+
